@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
-
-gem 'pry-byebug'
+ruby '2.2.0'
 gem 'rspec', '~> 3.1'
+gem 'byebug'
+gem 'pry'
