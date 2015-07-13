@@ -4,7 +4,7 @@
 
 ## Objectives
 
-By the end of this, students should be able to:
+By the end of this lesson, students should be able to:
 
 - Objective 1
 - Objective 2
@@ -19,7 +19,7 @@ Make sure to wrap section of code in appropriate markdown like `ls -al`, and den
 ```ruby
 x = 2
 y = 3
-puts x + y
+z = x + y
 ```
 
 ## Bonus (Optional Section)
