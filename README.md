@@ -22,6 +22,18 @@ y = 3
 z = x + y
 ```
 
+### Demonstration
+
+Developers follow the consultant's explanations
+
+### Code along
+
+Developers write code with the consultant
+
+### Lab
+
+Developers work in their squads to write code.
+
 ## Bonus (Optional Section)
 
 If you're looking for extra challenge or practice once you've completed the above, try to...
@@ -37,3 +49,8 @@ List additional related resources such as videos, blog posts and official docume
 - Item 1
 - Item 2
 - Item 3
+
+## [License](LICENSE)
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
