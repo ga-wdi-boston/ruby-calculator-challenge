@@ -32,11 +32,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug (~> 8.0)
+  byebug (~> 8.2)
   pry (~> 0.10)
-  pry-byebug (~> 3.3.0)
+  pry-byebug (~> 3.3)
   rb-readline (~> 0.5.3)
-  rspec (~> 3.3)
+  rspec (~> 3.4)
 
 BUNDLED WITH
    1.11.2
