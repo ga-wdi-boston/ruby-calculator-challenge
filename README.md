@@ -1,54 +1,45 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-# Assignment Name (Ruby String Lab)
+# Ruby Calculator Challenge
+
+## Prerequisites
+
+-   [ga-wdi-boston/ruby-vs-js-arrays](https://github.com/ga-wdi-boston/ruby-vs-js-arrays)
+-   [ga-wdi-boston/ruby-vs-js-hash-dictionary](https://github.com/ga-wdi-boston/ruby-vs-js-hash-dictionary)
+-   [ga-wdi-boston/ruby-vs-js-objects](https://github.com/ga-wdi-boston/ruby-vs-js-objects)
 
 ## Objectives
 
-By the end of this lesson, students should be able to:
+By the end of this lesson, developers should be able to:
 
-- Objective 1
-- Objective 2
-- Objective 3
+-   Create new instances of a `Calculator` class
+-   Access calculator methods from this class within `pry` when
+running `ruby bin/calc.rb`
+-   Return `Floats` vs `Fixnums` for true values
 
 ## Instructions
 
-Include explict step-by-step instructions about the goals of the assignment, and how to run the code.
+In [`bin/calc.rb`](bin/calc.rb), create a Calculator Class with calculation
+methods for each of the following operations:
 
-Make sure to wrap section of code in appropriate markdown like `ls -al`, and denote the language as below for longer sections:
+-   Addition
+-   Subtraction
+-   Multiplication
+-   Division
+-   Square
+-   Square Roots
 
-```ruby
-x = 2
-y = 3
-z = x + y
-```
+Each calculation method should expect the appropriate number of arguments
+required to complete the operation.
 
-### Demonstration
+After running `ruby bin/calc.rb`, and in your `pry` console, you should be able
+ to create a new instance of your Calculator class, and then call each
+ calculation method from this instance.
 
-Developers follow the consultant's explanations
+You may wish to leverage Ruby's [Math module](http://ruby-doc.org/core-2.2.0/Math.html)
+for square roots.
 
-### Code along
-
-Developers write code with the consultant
-
-### Lab
-
-Developers work in their squads to write code.
-
-## Bonus (Optional Section)
-
-If you're looking for extra challenge or practice once you've completed the above, try to...
-
-## Notes
-
-Gotcha's and extra information
-
-## Additional Resources
-
-List additional related resources such as videos, blog posts and official documentation.
-
-- Item 1
-- Item 2
-- Item 3
+*Be aware of whether your methods are returning Float or Fixnum results.*
 
 ## [License](LICENSE)
 
