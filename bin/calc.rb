@@ -27,8 +27,8 @@ class Calculator
   end
 end
 
-puts Calculator.new(5).add(3).multiply(2).subtract(1).divide(3)
+calc = Calculator.new(5).add(3).multiply(2).subtract(1).divide(3)
+puts calc.curr
 
-
-binding.pry
-''
+# binding.pry
+# ''
