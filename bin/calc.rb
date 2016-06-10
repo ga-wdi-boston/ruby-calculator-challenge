@@ -4,26 +4,26 @@ require 'pry'
 
 class Calculator
   def initialize(num)
-    @num = num
+    @num = num.to_f
   end
 
-  def add(num)
-    @num += num
+  def add(number)
+    @num += number.to_f
     self
   end
 
-  def subtract(num)
-    @num -= num
+  def subtract(number)
+    @num -= number.to_f
     self
   end
 
-  def multiply(num)
-    @num *= num
+  def multiply(number)
+    @num *= number.to_f
     self
   end
 
-  def divide(num)
-    @num /= num
+  def divide(number)
+    @num /= number.to_f
     self
   end
 end
