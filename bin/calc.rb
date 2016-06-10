@@ -7,23 +7,23 @@ class Calculator
     @num = num
   end
 
-  def add(num2)
-    @num += num2
+  def add(num)
+    @num += num
     self
   end
 
-  def subtract(num3)
-    @num -= num3
+  def subtract(num)
+    @num -= num
     self
   end
 
-  def multiply(num4)
-    @num *= num4
+  def multiply(num)
+    @num *= num
     self
   end
 
-  def divide(num5)
-    @num /= num5
+  def divide(num)
+    @num /= num
     self
   end
 end
