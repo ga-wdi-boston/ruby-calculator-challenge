@@ -26,6 +26,5 @@ end
 
 test = Calculator.new(4, 5)
 test.product
-
 binding.pry
 ''
