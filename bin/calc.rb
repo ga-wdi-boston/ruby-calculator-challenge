@@ -17,7 +17,7 @@ class Calculator
   private :x
 
   def initialize(x)
-    @x = x
+    @x = x.to_f
   end
 
   def add(y)
