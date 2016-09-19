@@ -24,6 +24,21 @@ class Calculator
     self.x = (x + y).to_f
     self
   end
+
+  def subtract(y)
+    self.x = (x - y).to_f
+    self
+  end
+
+  def multiply(y)
+    self.x = (x * y).to_f
+    self
+  end
+
+  def divide(y)
+    self.x = (x / y).to_f
+    self
+  end
 end
 
 binding.pry
