@@ -4,24 +4,28 @@ require 'pry'
 class Calculator
   attr_reader :add, :subtract, :multiply, :divide
 
-  def initialize(input)
-    @input = input.to_f
+  def initialize(val)
+    @val = val.to_f
   end
 
-  def add(val)
-    @input + val
+  def add(input)
+    @val += input
+    self
   end
 
-  def subtract(val)
-    @input - val
+  def subtract(input)
+    @val -= input
+    self
   end
 
-  def multiply(val)
-    @input * val
+  def multiply(input)
+    @val *= input
+    self
   end
 
-  def divide(val)
-    @input / val
+  def divide(input)
+    @val /= input
+    self
   end
 
 end
