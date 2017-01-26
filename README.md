@@ -30,6 +30,16 @@ calculation on:
 -   Multiplication
 -   Division
 
+In addition, there should be an `equals` method that returns the current
+calculated value.  For example:
+
+```ruby
+calculator = Calculator.new(5)
+calculator.equals #=> 5
+calculator.add(3)
+calculator.equals #=> 8
+```
+
 After running `ruby bin/calc.rb`, and in your `pry` console, you should be able
 to create a new instance of your `Calculator` class and chain a calculation
 method to it to receive the correct answer.
@@ -50,7 +60,7 @@ specifically in regards to [method chaining](http://www.sitepoint.com/a-guide-to
 and refactor your `Calculator` class to allow for multiple chained calculations.
 For example:
 
-> `Calculator.new(5).add(3).multiply(2).subtract(1).divide(3) #=> 5`
+> `Calculator.new(5).add(3).multiply(2).subtract(1).divide(3).equals #=> 5`
 
 ## [License](LICENSE)
 
