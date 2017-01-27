@@ -30,14 +30,23 @@ calculation on:
 -   Multiplication
 -   Division
 
-In addition, there should be an `equals` method that returns the current
-calculated value.  For example:
+In addition, there should be an `equals` method and a `clear` method.
+`equals` should return the current calculated value.  For example:
 
 ```ruby
 calculator = Calculator.new(5)
-calculator.equals #=> 5
+calculator.equals # 5
 calculator.add(3)
-calculator.equals #=> 8
+calculator.equals # 8
+```
+
+`clear` should reset the current calculated value to 0.  For example:
+
+```ruby
+calculator = Calculator.new(5)
+calculator.equals # 5
+calculator.clear
+calculator.equals # 0
 ```
 
 After running `ruby bin/calc.rb`, and in your `pry` console, you should be able
