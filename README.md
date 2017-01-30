@@ -14,13 +14,13 @@
 1.  Create and checkout a new branch to work on.
 1.  Fulfill the listed requirements.
 
-Starter code is available in [`bin/calc.rb`](bin/calc.rb). A pull request is not
+Starter code is available in [`lib/calc.rb`](lib/calc.rb). A pull request is not
 required, but it is necessary if you want a code review.
 
 You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
 related to [forking, cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
 
-In [`bin/calc.rb`](bin/calc.rb), create a `Calculator` class with an initialize
+In [`lib/calc.rb`](lib/calc.rb), create a `Calculator` class with an initialize
 method that takes a starting number. You should then create calculation methods
 for each of the following operations that take a second number to perform a
 calculation on:
@@ -49,17 +49,17 @@ calculator.clear
 calculator.equals # 0
 ```
 
-After running `ruby bin/calc.rb`, and in your `pry` console, you should be able
-to create a new instance of your `Calculator` class and chain a calculation
-method to it to receive the correct answer.
+You should be able to create a new instance of your `Calculator` class and chain
+a calculator method to it to receive the correct answer by running `pry` and
+executing `require_relative 'lib/calc'`.
 
 *Be aware of whether your methods are returning Float or Fixnum results.*
 
 ## Requirements
 
 -   Create new instances of a `Calculator` class with an initialized value
--   Access calculator methods from this class within `pry` when running
-    `ruby bin/calc.rb`
+-   Access calculator methods from this class within `pry` by executing
+    `require_relative 'lib/calc'`
 -   Return `Floats` vs `Fixnums` for true values
 
 ## Bonus
