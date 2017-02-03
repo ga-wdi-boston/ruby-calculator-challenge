@@ -10,15 +10,19 @@ class Calculator
 
   def clear
     @num = 0.0
-    self
   end
 
   def equals
     @num
   end
 
+  # def add(new_num)
+  #   @num += new_num
+  #   self
+  # end
+
   def add(new_num)
-    @num += new_num
+    num(num + new_num)
     self
   end
 
