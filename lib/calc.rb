@@ -10,22 +10,22 @@ class Calculator
 
   def add(num_two)
     @number += num_two.to_f
-    @number
+    self
   end
 
   def subtract(num_two)
     @number -= num_two.to_f
-    @number
+    self
   end
 
   def multiply(num_two)
     @number *= num_two.to_f
-    @number
+    self
   end
 
   def divide(num_two)
     @number /= num_two.to_f
-    @number
+    self
   end
 
   def equals
