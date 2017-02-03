@@ -5,10 +5,12 @@ class Calculator
   attr_accessor :num
   def initialize(new_num)
     @num = new_num.to_f
+    self
   end
 
   def clear
-    0
+    @num = 0.0
+    self
   end
 
   def equals
