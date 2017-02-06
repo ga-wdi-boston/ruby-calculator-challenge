@@ -71,6 +71,15 @@ For example:
 
 > `Calculator.new(5).add(3).multiply(2).subtract(1).divide(3).equals #=> 5`
 
+## Tasks
+
+Developers should run these often!
+
+-   `bin/rake nag`  (or `bundle exec rake nag`):
+    runs code quality analysis tools on your code and complains.
+-   `bin/rake test` (or `bundle exec rake test`): runs automated tests.
+-   `bin/rake` will run both `nag` and `test`
+
 ## [License](LICENSE)
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
