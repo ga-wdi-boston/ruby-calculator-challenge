@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative '../lib/calc.rb'
+require 'calc'
 
-RSpec.describe 'Requirements' do
+describe 'Requirements' do
   describe Calculator do
     before(:example) do
       @calculator = Calculator.new(3)
@@ -108,7 +108,7 @@ RSpec.describe 'Requirements' do
   end
 end
 
-RSpec.describe 'Bonus' do
+describe 'Bonus' do
   context Calculator do
     it 'can chain methods' do
       @calculator = Calculator.new(2).add(3).subtract(4).multiply(5).divide(2)
