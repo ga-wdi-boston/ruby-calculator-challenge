@@ -5,6 +5,7 @@ class Calculator
 
 def initialize(num)
   @num = num
+  @num_init = num
 end
 
 def add(var)
@@ -25,6 +26,14 @@ end
 
 def equals
   @num = num
+end
+
+def return_to_inital_value
+  @num = @num_init
+end
+
+def clear
+  @num = 0
 end
 end
 
@@ -47,3 +56,11 @@ puts cal1.equals
 p cal1.division(3)
 
 puts cal1.equals
+
+puts cal1.clear
+
+p cal1.equals
+
+puts cal1.return_to_inital_value
+
+p cal1.equals
