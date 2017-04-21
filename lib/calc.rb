@@ -7,22 +7,27 @@ class Calculator
 
 def add(new_Num)
   @num = @num + new_Num
+  self
 end
 
 def subtract(new_Num)
   @num = @num - new_Num
+  self
 end
 
 def multiply(new_Num)
   @num *= new_Num
+  self
 end
 
 def divide(new_Num)
   @num = @num / new_Num
+  self
 end
 
 def equals
   return @num
+  self
 end
 
 def clear
